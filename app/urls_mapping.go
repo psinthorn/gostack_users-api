@@ -1,8 +1,6 @@
 package app
 
 import (
-	"github.com/psinthorn/gostack_users-api/controllers/categories"
-	"github.com/psinthorn/gostack_users-api/controllers/contents"
 	"github.com/psinthorn/gostack_users-api/controllers/index"
 	"github.com/psinthorn/gostack_users-api/controllers/users"
 )
@@ -24,16 +22,5 @@ func urlsMapping() {
 	router.PUT("/users/:id", users.Update)
 	router.DELETE("/users/:id", users.Delete)
 	router.GET("/internal/users/search", users.Search)
-
-	router.POST("/categories", categories.Create)
-	router.GET("/categories", categories.GetAll)
-	router.GET("/categories/:id", categories.Get)
-
-	router.POST("/contents", contents.Create)
-	router.GET("/allcontents/:api", contents.GetAll)
-	router.GET("/contents/:id/:api", contents.Get)
-	router.PATCH("/contents/:id", contents.Update)
-	router.PUT("/contents/:id", contents.Update)
-	router.DELETE("/contents/:id", contents.Delete)
 
 }
