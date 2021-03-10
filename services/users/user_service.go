@@ -3,10 +3,10 @@ package services
 import (
 	"fmt"
 
-	"github.com/psinthorn/gogolang.co/domains/errors"
-	"github.com/psinthorn/gogolang.co/domains/users"
-	"github.com/psinthorn/gogolang.co/utils/crypto_utils"
-	date_utils "github.com/psinthorn/gogolang.co/utils/date"
+	"github.com/psinthorn/gostack_users-api/domains/errors"
+	"github.com/psinthorn/gostack_users-api/domains/users"
+	"github.com/psinthorn/gostack_users-api/utils/crypto_utils"
+	date_utils "github.com/psinthorn/gostack_users-api/utils/date"
 )
 
 var (
