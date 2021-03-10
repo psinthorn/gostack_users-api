@@ -5,9 +5,9 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/psinthorn/gogolang.co/domains/errors"
-	"github.com/psinthorn/gogolang.co/domains/users"
-	services "github.com/psinthorn/gogolang.co/services/users"
+	"github.com/psinthorn/gostack_users-api/domains/errors"
+	"github.com/psinthorn/gostack_users-api/domains/users"
+	services "github.com/psinthorn/gostack_users-api/services/users"
 )
 
 //

@@ -2,9 +2,9 @@ package app
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/psinthorn/gogolang.co/configs"
+	"github.com/psinthorn/gostack_users-api/configs"
 
-	"github.com/psinthorn/gogolang.co/logger"
+	"github.com/psinthorn/gostack_users-api/logger"
 )
 
 var (
