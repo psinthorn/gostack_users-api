@@ -3,7 +3,7 @@ package validate_utils
 import (
 	"strconv"
 
-	"github.com/psinthorn/gogolang.co/domains/errors"
+	"github.com/psinthorn/gostack_users-api/domains/errors"
 )
 
 func Id(IdParam string) (int64, *errors.ErrorRespond) {
