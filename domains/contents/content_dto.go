@@ -3,7 +3,7 @@ package contents
 import (
 	"strings"
 
-	"github.com/psinthorn/gogolang.co/domains/errors"
+	"github.com/psinthorn/gostack_users-api/domains/errors"
 )
 
 type Content struct {

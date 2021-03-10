@@ -1,10 +1,10 @@
 package contents
 
 import (
-	mysql_db "github.com/psinthorn/gogolang.co/datasources/mysql/users_db"
-	"github.com/psinthorn/gogolang.co/domains/errors"
-	date_utils "github.com/psinthorn/gogolang.co/utils/date"
-	mysql_utils "github.com/psinthorn/gogolang.co/utils/mysql"
+	mysql_db "github.com/psinthorn/gostack_users-api/datasources/mysql/users_db"
+	"github.com/psinthorn/gostack_users-api/domains/errors"
+	date_utils "github.com/psinthorn/gostack_users-api/utils/date"
+	mysql_utils "github.com/psinthorn/gostack_users-api/utils/mysql"
 )
 
 const (
